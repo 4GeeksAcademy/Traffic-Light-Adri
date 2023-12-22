@@ -1,12 +1,43 @@
-
-/* 
-
-    You can write your own styles here...
+.palo{
+    margin-top: 10px;
+    margin-left: 40%;
+    background: black;
+    width: 10px;
+    height: 60px;
+}
+.semaforo{
+    padding: 8px;
+    margin-left: 34.5%;
+    background: black;
+    width: 85px;
+    height: 250px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.circulo{
+   
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 
-*/
+#red{
+    background: red;
+   
+}
+#yellow{
+    background: yellow;
+   
+}
+#green{
+    background: green;
+   
+}
+
+.selected{
+    &:hover{
+        
+        box-shadow: 0 30px 20px rgba(255, 255, 255, 1); 
+        
+        background-color: white;
+    }
+}
