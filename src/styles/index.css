@@ -43,3 +43,30 @@ body{
   
   }
   
+  .bailando {
+    animation: bailar 1s infinite;
+  }
+  
+  @keyframes bailar {
+    0% {
+      transform: scale(1);
+      background-color: #ff0000; 
+    }
+    25% {
+      transform: scale(1.2);
+      background-color: #00ff00; 
+    }
+    50% {
+      transform: scale(1);
+      background-color: #0000ff; 
+    }
+    75% {
+      transform: scale(1.2);
+      background-color: #ff00ff; 
+    }
+    100% {
+      transform: scale(1);
+      background-color: #ffff00; 
+    }
+  }
+  
