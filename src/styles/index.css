@@ -1,3 +1,6 @@
+body{
+    background-color: blueviolet;
+}
 .palo{
     margin-top: 10px;
     margin-left: 40%;
@@ -33,11 +36,10 @@
    
 }
 
-.selected{
-    &:hover{
-        
-        box-shadow: 0 30px 20px rgba(255, 255, 255, 1); 
-        
+.selected {
+
+        box-shadow: 0 0 60px rgba(255, 255, 255, 1);
         background-color: white;
-    }
-}
+  
+  }
+  
